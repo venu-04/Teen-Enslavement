@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0
+}
+body{
+    background: linear-gradient(to right,#fc00ff,#00dbde);
+}
+.container{
+    width:380px;
+    background:white;
+    margin:130px 0px 0px 490px;
+    height: 55vh;
+    text-align: center;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+
+}
+input{
+    width: 300px;
+    height:6vh; 
+    margin: 15px;
+
+}
+#btn{
+    height: 6vh;
+    background: linear-gradient(to right,#00dbde,#fc00ff);
+    border: 0;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
+#btn:hover{
+    background:linear-gradient(to right,tomato,rgb(77, 201, 77));
+}
+p{
+    color:red;
+    font size: 9px;
+    margin-left: -20% ;
+}
+input.largerCheckbox {
+    width: 10px;
+    height: 10px;
+    }
+
+.button{
+    position:absolute;
+    top: 60%;
+    left:50%;
+    transform: translate(-40%,-50%);
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 60px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.25s ease;
+    background: linear-gradient(to right,#00dbde,#fc00ff);
+}
+.btn:hover{
+    background-color: #fff;
+    color:#000;
+    background:linear-gradient(to right,tomato,rgb(77, 201, 77));
+    
+}
+#loading{
+    background: #000 url("load_AdobeExpress.gif") no-repeat center center;
+    background-size: 150px;
+    height: 100vh;
+    width:100%;
+    position:fixed;
+    z-index: 100000;
+    
+}
+
+

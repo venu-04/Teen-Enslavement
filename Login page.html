@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="sign in.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <div id="loading" >
+    
+    </div>  
+    <div class="container">
+        <form action="" onsubmit="return validationform()">
+            <h1>LOGIN</h1>
+            <input type="email" placeholder="sample@gmail.com" id="username"><br>
+            <p id="userError"></p>
+            <input type="password" placeholder="password" id="password">
+            <br><i class="bi bi-eye-slash" id="togglePassword"></i><br>
+            <p id="passError"></p>
+            <!--<input type="submit" placeholder="Submit" id="btn"><br><br>-->
+            <div class="button">
+               
+            <a href="De habitation.html" class="btn" >Submit</a>
+            </div>
+
+        </form>
+    </div>
+    <script src="script.js">
+        
+    </script>
+     <script>
+        var overlayloader = document.getElementById("loading");
+        window.addEventListener("load", function(){
+            overlayloader.style.display="none";
+        });
+        </script>
+</body>
+</html>
